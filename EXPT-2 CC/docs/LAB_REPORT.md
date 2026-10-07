@@ -2,42 +2,75 @@
 
 ## Experiment Title
 
-Dockerized Python Flask Application
+**Dockerized Python Flask Application**
 
-## Objective
+---
 
-To package a Python Flask web application into a Docker container and run the application locally using Docker.
+## Aim
 
-## Tools Used
+To create a simple Python Flask web application, containerize it using Docker, build a Docker image, run the application inside a Docker container, and access it through a web browser.
 
+---
+
+## Objectives
+
+- To verify the installation and working of Docker.
+- To understand Docker images and containers.
+- To create a simple Python Flask application.
+- To define Python dependencies using `requirements.txt`.
+- To create a Dockerfile for containerizing the application.
+- To build a Docker image.
+- To create and run a Docker container.
+- To understand Docker port mapping.
+- To access the Flask application through a web browser.
+
+---
+
+## Requirements
+
+### Hardware
+
+- Computer/Laptop
+- Internet connection
+- Sufficient storage for Docker images and containers
+
+### Software
+
+- Windows
 - Python
-- Flask
 - Docker Desktop
 - Docker Engine
-- Windows
+- PowerShell
+- Web Browser
 
-## Experiment Overview
+---
 
-This experiment demonstrates how a simple Python Flask application can be containerized using Docker. The application is packaged into a Docker image and executed as a container with port 5000 exposed to the host system.
+## Technologies Used
 
-## Procedure
+| Technology | Purpose |
+|---|---|
+| Python | Programming language |
+| Flask | Web application framework |
+| Docker | Containerization platform |
+| Docker Desktop | Local Docker environment |
+| Dockerfile | Defines Docker image configuration |
+| PowerShell | Command-line execution |
+| Web Browser | Accessing the application |
 
-The experiment involves:
+---
 
-1. Verifying the Docker installation.
-2. Testing Docker using the `hello-world` image.
-3. Creating a Python Flask application.
-4. Creating the `requirements.txt` file.
-5. Creating a Dockerfile.
-6. Building the Docker image.
-7. Verifying the Docker image.
-8. Creating and running the Docker container.
-9. Accessing the Flask application through a web browser.
+## Project Structure
 
-## Result
-
-The Flask application was successfully containerized using Docker and accessed through the local browser.
-
-## Conclusion
-
-The experiment demonstrates the basic process of containerizing a Python Flask application using Docker and running it locally in an isolated container environment.
+```text
+EXPT-2 CC/
+│
+├── docs/
+│   ├── screenshots/
+│   └── LAB_REPORT.md
+│
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── app.py
+├── requirements.txt
+└── .gitignore
